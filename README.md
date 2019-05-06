@@ -2,10 +2,15 @@ RucksackSolver
 ====================================
 
 RucksackSolver is an executable to solve the rucksack problem with dynamic programming and as well with the FPTAS.
-The executable was written and tested in .Net 4.7.
+The executable was written and tested in .Net 4.8.
 The corresponding Java implementation can be found here: https://github.com/SeppPenner/RucksackSolver-Java
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ch5dx3a373gh262n?svg=true)](https://ci.appveyor.com/project/SeppPenner/rucksacksolverc)
+[![GitHub issues](https://img.shields.io/github/issues/SeppPenner/RucksackSolverC-.svg)](https://github.com/SeppPenner/RucksackSolverC-/issues)
+[![GitHub forks](https://img.shields.io/github/forks/SeppPenner/RucksackSolverC-.svg)](https://github.com/SeppPenner/RucksackSolverC-/network)
+[![GitHub stars](https://img.shields.io/github/stars/SeppPenner/RucksackSolverC-.svg)](https://github.com/SeppPenner/RucksackSolverC-/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/RucksackSolverC-/master/License.txt)
+[![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/RucksackSolverC-/badge.svg)](https://snyk.io/test/github/SeppPenner/RucksackSolverC-)
 
 
 ## How does the configuration need to look like:
@@ -39,4 +44,5 @@ The corresponding Java implementation can be found here: https://github.com/Sepp
 Change history
 --------------
 
+* **Version 1.0.0.1 (2019-05-06)** : Updated .Net version to 4.8.
 * **Version 1.0.0.0 (2017-04-30)** : 1.0 release.
