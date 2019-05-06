@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<RucksackObjects>
+		<RucksackObject>
+			<Price>232</Price>
+			<Weight>153</Weight>
+		</RucksackObject>
+		<RucksackObject>
+			<Price>73</Price>
+			<Weight>54</Weight>
+		</RucksackObject>
+		<RucksackObject>
+			<Price>201</Price>
+			<Weight>191</Weight>
+		</RucksackObject>
+		<RucksackObject>
+			<Price>50</Price>
+			<Weight>66</Weight>
+		</RucksackObject>
+		<RucksackObject>
+			<Price>141</Price>
+			<Weight>239</Weight>
+		</RucksackObject>
+		<RucksackObject>
+			<Price>79</Price>
+			<Weight>137</Weight>
+		</RucksackObject>
+		<RucksackObject>
+			<Price>48</Price>
+			<Weight>148</Weight>
+		</RucksackObject>
+		<RucksackObject>
+			<Price>38</Price>
+			<Weight>249</Weight>
+		</RucksackObject>
+	</RucksackObjects>
+</Config>
