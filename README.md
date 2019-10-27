@@ -44,5 +44,6 @@ The corresponding Java implementation can be found here: https://github.com/Sepp
 Change history
 --------------
 
+* **Version 1.0.1.0 (2019-10-27)** : Updated nuget packages, added GitVersionTask.
 * **Version 1.0.0.1 (2019-05-06)** : Updated .Net version to 4.8.
 * **Version 1.0.0.0 (2017-04-30)** : 1.0 release.
