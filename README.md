@@ -9,7 +9,7 @@ The corresponding Java implementation can be found here: https://github.com/Sepp
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/RucksackSolverC-.svg)](https://github.com/SeppPenner/RucksackSolverC-/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/RucksackSolverC-.svg)](https://github.com/SeppPenner/RucksackSolverC-/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/RucksackSolverC-.svg)](https://github.com/SeppPenner/RucksackSolverC-/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/RucksackSolverC-/master/License.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/RucksackSolverC-/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/RucksackSolverC-/badge.svg)](https://snyk.io/test/github/SeppPenner/RucksackSolverC-)
 
 
