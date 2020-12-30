@@ -55,7 +55,7 @@
             this.buttonLoadConfig.TabIndex = 0;
             this.buttonLoadConfig.Text = "Load config file";
             this.buttonLoadConfig.UseVisualStyleBackColor = true;
-            this.buttonLoadConfig.Click += new System.EventHandler(this.buttonLoadConfig_Click);
+            this.buttonLoadConfig.Click += new System.EventHandler(this.ButtonLoadConfigClick);
             // 
             // buttonCalculate
             // 
@@ -66,7 +66,7 @@
             this.buttonCalculate.TabIndex = 1;
             this.buttonCalculate.Text = "Calculate";
             this.buttonCalculate.UseVisualStyleBackColor = true;
-            this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
+            this.buttonCalculate.Click += new System.EventHandler(this.ButtonCalculateClick);
             // 
             // tableLayoutPanelMain
             // 
@@ -151,7 +151,7 @@
             this.comboBoxChooseType.Name = "comboBoxChooseType";
             this.comboBoxChooseType.Size = new System.Drawing.Size(299, 21);
             this.comboBoxChooseType.TabIndex = 4;
-            this.comboBoxChooseType.SelectedIndexChanged += new System.EventHandler(this.comboBoxChooseType_SelectedIndexChanged);
+            this.comboBoxChooseType.SelectedIndexChanged += new System.EventHandler(this.ComboBoxChooseTypeSelectedIndexChanged);
             // 
             // tableLayoutPanelK
             // 
