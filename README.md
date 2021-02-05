@@ -13,7 +13,7 @@ The corresponding Java implementation can be found here: https://github.com/Sepp
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/RucksackSolverC-/badge.svg)](https://snyk.io/test/github/SeppPenner/RucksackSolverC-)
 
 
-## How does the configuration need to look like:
+## How does the configuration need to look like
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -38,7 +38,7 @@ The corresponding Java implementation can be found here: https://github.com/Sepp
 </Config>
 ```
 
-## Screenshot from the executable:
+## Screenshot from the executable
 ![Screenshot from the executable](https://github.com/SeppPenner/RucksackSolverC-/blob/master/Screenshot.PNG "Screenshot from the executable")
 
 Change history
