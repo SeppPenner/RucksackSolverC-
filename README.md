@@ -2,7 +2,6 @@ RucksackSolver
 ====================================
 
 RucksackSolver is an executable to solve the rucksack problem with dynamic programming and as well with the FPTAS.
-The executable was written and tested in .Net 5.0.
 The corresponding Java implementation can be found here: https://github.com/SeppPenner/RucksackSolver-Java
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ch5dx3a373gh262n?svg=true)](https://ci.appveyor.com/project/SeppPenner/rucksacksolverc)
