@@ -32,12 +32,12 @@ namespace RucksackSolver.Implementation
         /// <summary>
         /// The rucksack objects.
         /// </summary>
-        private List<RucksackObject> rucksackObjects;
+        private List<RucksackObject> rucksackObjects = new();
 
         /// <summary>
         /// The values of the function.
         /// </summary>
-        private int[,] valuesOfFunction;
+        private int[,] valuesOfFunction = new int[1, 1];
 
         /// <inheritdoc cref="IRucksackSolver"/>
         /// <summary>

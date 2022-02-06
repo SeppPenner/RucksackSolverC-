@@ -20,12 +20,12 @@ namespace RucksackSolver.Implementation
         /// <summary>
         /// Gets or sets the approach.
         /// </summary>
-        public string Approach { get; set; }
+        public string Approach { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets the rucksack objects.
         /// </summary>
-        public IList<RucksackObject> RucksackObjects { get; set; }
+        public IList<RucksackObject> RucksackObjects { get; set; } = new List<RucksackObject>();
 
         /// <summary>
         /// Gets or sets the total weight.

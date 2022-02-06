@@ -36,12 +36,12 @@ namespace RucksackSolver.Implementation
             try
             {
                 var xDocument = XDocument.Load(fileName);
-                return CreateObjectsFromString<Config>(xDocument);
+                return CreateObjectsFromString<Config>(xDocument) ?? new();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.StackTrace, ex.Message);
-                return null;
+                return new();
             }
         }
 
@@ -51,10 +51,10 @@ namespace RucksackSolver.Implementation
         /// <typeparam name="T">The type parameter.</typeparam>
         /// <param name="xDocument">The x document.</param>
         /// <returns>A new object of type <see cref="T"/>.</returns>
-        private static T CreateObjectsFromString<T>(XDocument xDocument)
+        private static T? CreateObjectsFromString<T>(XDocument xDocument)
         {
             var xmlSerializer = new XmlSerializer(typeof(T));
-            return (T)xmlSerializer.Deserialize(new StringReader(xDocument.ToString()));
+            return (T?)xmlSerializer.Deserialize(new StringReader(xDocument.ToString()));
         }
     }
 }

@@ -34,7 +34,7 @@ namespace RucksackSolver
         /// <summary>
         /// The configuration.
         /// </summary>
-        private Config config;
+        private Config config = new();
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Main"/> class.

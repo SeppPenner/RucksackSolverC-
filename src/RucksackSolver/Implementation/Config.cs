@@ -21,7 +21,6 @@ namespace RucksackSolver.Implementation
         /// <summary>
         /// Gets or sets the rucksack objects.
         /// </summary>
-        // ReSharper disable once UnusedMember.Global
-        public List<RucksackObject> RucksackObjects { get; set; }
+        public List<RucksackObject> RucksackObjects { get; set; } = new();
     }
 }
