@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="IRucksackSolver.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,34 +7,27 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace RucksackSolver.Interfaces
-{
-    using System.Collections.Generic;
+namespace RucksackSolver.Interfaces;
 
-    using RucksackSolver.Implementation;
+/// <summary>
+/// An interface to solve the rucksack problem.
+/// </summary>
+public interface IRucksackSolver
+{
+    /// <summary>
+    /// Solves the problem.
+    /// </summary>
+    /// <param name="rucksackObjectsParam">The rucksack objects.</param>
+    /// <param name="b">The b value.</param>
+    /// <returns>The <see cref="RucksackSolution"/>.</returns>
+    RucksackSolution Solve(List<RucksackObject> rucksackObjectsParam, int b);
 
     /// <summary>
-    /// An interface to solve the rucksack problem.
+    /// Solves the FPTAS.
     /// </summary>
-    public interface IRucksackSolver
-    {
-        /// <summary>
-        /// Solves the problem.
-        /// </summary>
-        /// <param name="rucksackObjectsParam">The rucksack objects.</param>
-        /// <param name="b">The b value.</param>
-        /// <returns>The <see cref="RucksackSolution"/>.</returns>
-        // ReSharper disable once UnusedMethodReturnValue.Global
-        RucksackSolution Solve(List<RucksackObject> rucksackObjectsParam, int b);
-
-        /// <summary>
-        /// Solves the FPTAS.
-        /// </summary>
-        /// <param name="rucksackObjectsParam">The rucksack objects.</param>
-        /// <param name="b">The b value.</param>
-        /// <param name="k">The k value.</param>
-        /// <returns>The <see cref="RucksackSolution"/>.</returns>
-        // ReSharper disable once UnusedMember.Global
-        RucksackSolution SolveFptas(List<RucksackObject> rucksackObjectsParam, int b, int k);
-    }
+    /// <param name="rucksackObjectsParam">The rucksack objects.</param>
+    /// <param name="b">The b value.</param>
+    /// <param name="k">The k value.</param>
+    /// <returns>The <see cref="RucksackSolution"/>.</returns>
+    RucksackSolution SolveFptas(List<RucksackObject> rucksackObjectsParam, int b, int k);
 }

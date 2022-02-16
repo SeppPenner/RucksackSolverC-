@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="ConfigNotProperlyLoadedException.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -7,33 +7,26 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace RucksackSolver.Exceptions
+namespace RucksackSolver.Exceptions;
+
+/// <inheritdoc cref="Exception"/>
+/// <summary>
+/// The configuration not properly loaded exception.
+/// </summary>
+public class ConfigNotProperlyLoadedException : Exception
 {
-    using System;
+    /// <inheritdoc cref="Exception"/>
+    public ConfigNotProperlyLoadedException()
+    {
+    }
 
     /// <inheritdoc cref="Exception"/>
-    /// <summary>
-    /// The configuration not properly loaded exception.
-    /// </summary>
-    // ReSharper disable once UnusedMember.Global
-    public class ConfigNotProperlyLoadedException : Exception
+    public ConfigNotProperlyLoadedException(string message) : base(message)
     {
-        /// <inheritdoc cref="Exception"/>
-        // ReSharper disable once UnusedMember.Global
-        public ConfigNotProperlyLoadedException()
-        {
-        }
+    }
 
-        /// <inheritdoc cref="Exception"/>
-        // ReSharper disable once UnusedMember.Global
-        public ConfigNotProperlyLoadedException(string message) : base(message)
-        {
-        }
-
-        /// <inheritdoc cref="Exception"/>
-        // ReSharper disable once UnusedMember.Global
-        public ConfigNotProperlyLoadedException(string message, Exception innerException) : base(message, innerException)
-        {
-        }
+    /// <inheritdoc cref="Exception"/>
+    public ConfigNotProperlyLoadedException(string message, Exception innerException) : base(message, innerException)
+    {
     }
 }
